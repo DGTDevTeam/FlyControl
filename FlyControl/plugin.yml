@@ -1,0 +1,14 @@
+name: FlyControl
+main: me.JamieSinn.Bukkit.Fly
+version: 0.2
+website: http://dev.bukkit.org/server-mods/flycontrol
+author: JamieSinn
+description: Fly until the world ends.
+permissions:
+  FlyControl.*:
+    description: allows the user to fly
+    children:
+      FlyControl.fly: true
+  FlyControl.fly:
+    default: op
+    description: allows the user to fly
